@@ -11,7 +11,8 @@
 
 | ID | Fichero | Tipo | Estado | Confidence | Versión |
 |----|---------|------|--------|------------|---------|
-| — | — | — | — | — | — |
+| ARCH-HACK-001 | `specs/architecture/ARCH-HACK-001-arquitectura-wgtb-backend.md` | architecture | draft | medium | 0.1.0 |
+| DOC-HACK-001 | `rulebooks/RULEBOOK-SPRING-001.md` | documentation | draft | low | 0.2.0 |
 
 ---
 
@@ -35,7 +36,7 @@
 
 | ID | Fichero | Tecnología | Estado |
 |----|---------|-----------|--------|
-| — | — | — | — |
+| DOC-HACK-001 | `rulebooks/RULEBOOK-SPRING-001.md` | Java 11 / Spring Boot | 🟡 draft · v0.1.0 |
 
 ---
 
@@ -66,11 +67,11 @@
 | 🔴 | `ADR-001` | `adrs/ADR-001-lenguaje-implementacion-agente.md` | Decisión crítica: stack del agente |
 | 🔴 | `ADR-002` | `adrs/ADR-002-modelo-ia-y-copilot.md` | Decisión: Claude + Copilot Claude Agent |
 | 🔴 | `ADR-003` | `adrs/ADR-003-github-app-vs-pat.md` | Decisión: integración con GitHub Enterprise BBVA |
-| 🔴 | `ARCH-HACK-001` | `specs/architecture/ARCH-HACK-001-stack-agente.md` | Desbloquea todos los specs técnicos |
+| 🔴 | `ARCH-HACK-002` | `specs/architecture/ARCH-HACK-002-stack-agente-hackiados.md` | Stack técnico del agente HackIAdos — requiere ADR-001/002/003 |
 | 🟡 | `DOM-HACK-001` | `specs/domain/DOM-HACK-001-actores-entidades.md` | Actores (PR author, reviewer…) y entidades (PR, diff, violation…) |
 | 🟡 | `FEAT-HACK-001` | `specs/feature/FEAT-HACK-001-quality-gate-logic.md` | Lógica del semáforo 🟢🟡🔴 |
 | 🟡 | `FEAT-HACK-002` | `specs/feature/FEAT-HACK-002-legacy-code-rule.md` | Regla de Oro del Legacy |
-| 🟡 | `RULEBOOK-SPRING-001` | `rulebooks/RULEBOOK-SPRING-001-spring-boot.md` | Primer Rulebook — fuente: `KDD_Auditoria_WGTB_Backend.md` |
+| ~~🟡~~ | ~~`RULEBOOK-SPRING-001`~~ | ~~`rulebooks/RULEBOOK-SPRING-001.md`~~ | ✅ Creado — `DOC-HACK-001` |
 | 🟢 | `RULEBOOK-ANGULAR-001` | `rulebooks/RULEBOOK-ANGULAR-001-angular.md` | Segundo Rulebook — tras Spring Boot |
 
 ---
@@ -78,9 +79,9 @@
 ## Estado general
 
 ```
-Total artefactos:  0 Knowledge + 0 Governance + 0 Work + 0 Rulebooks = 0
+Total artefactos:  2 Knowledge + 0 Governance + 0 Work + 1 Rulebooks = 3
 Errores:           0  ✅
 Orphans:           0  ✅
 Fase 0:            EN CURSO 🔵 — base KDD completa · ADRs son el siguiente paso
-Siguiente acción:  Escribir ADR-001, ADR-002, ADR-003 → luego ARCH-HACK-001
+Siguiente acción:  Escribir ADR-001, ADR-002, ADR-003 → luego ARCH-HACK-002 (stack agente)
 ```

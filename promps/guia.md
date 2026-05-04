@@ -51,10 +51,10 @@ Este documento contiene los prompts optimizados para la generación de estándar
 ---
 
 ## 5. Formato KDD (Knowledge Decomposition & Density)
-**Objetivo:** Estructurar la documentación para arquitecturas RAG.
+**Objetivo:** Estructurar la documentación para arquitecturas KDD.
 
 **Prompt:**
-> Actúa como un Ingeniero de Conocimiento experto en arquitecturas RAG (Retrieval-Augmented Generation). Aplica una estructura KDD a todos los archivos .md de mi carpeta `/docs`.
+> Actúa como un Ingeniero de Conocimiento experto en arquitecturas KDD. Aplica una estructura KDD a todos los archivos .md de mi carpeta `/docs`.
 > 
 > Reglas de división:
 > 1. **Atomicidad:** Cada archivo debe tratar un ÚNICO concepto técnico. Divídelo si es necesario.
