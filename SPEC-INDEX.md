@@ -12,6 +12,7 @@
 | ID | Fichero | Tipo | Estado | Confidence | Versión |
 |----|---------|------|--------|------------|---------|
 | ARCH-HACK-001 | `specs/architecture/ARCH-HACK-001-arquitectura-wgtb-backend.md` | architecture | draft | medium | 0.1.0 |
+| DOM-HACK-001 | `specs/domain/DOM-HACK-001-actores-entidades.md` | domain | draft | medium | 0.1.0 |
 | DOC-HACK-001 | `rulebooks/RULEBOOK-SPRING-001.md` | documentation | draft | low | 0.2.0 |
 
 ---
@@ -70,7 +71,7 @@
 | ~~🔴~~ | ~~`ADR-002`~~ | ~~`adrs/ADR-002-modelo-ia.md`~~ | ✅ Creado — accepted |
 | ~~🔴~~ | ~~`ADR-003`~~ | ~~`adrs/ADR-003-github-app-vs-pat.md`~~ | ✅ Creado — proposed (pendiente validación BBVA) |
 | 🔴 | `ARCH-HACK-002` | `specs/architecture/ARCH-HACK-002-stack-agente-hackiados.md` | Stack técnico del agente HackIAdos — requiere ADR-001/002/003 |
-| 🟡 | `DOM-HACK-001` | `specs/domain/DOM-HACK-001-actores-entidades.md` | Actores (PR author, reviewer…) y entidades (PR, diff, violation…) |
+| ~~🟡~~ | ~~`DOM-HACK-001`~~ | ~~`specs/domain/DOM-HACK-001-actores-entidades.md`~~ | ✅ Creado — accepted |
 | 🟡 | `FEAT-HACK-001` | `specs/feature/FEAT-HACK-001-quality-gate-logic.md` | Lógica del semáforo 🟢🟡🔴 |
 | 🟡 | `FEAT-HACK-002` | `specs/feature/FEAT-HACK-002-legacy-code-rule.md` | Regla de Oro del Legacy |
 | ~~🟡~~ | ~~`RULEBOOK-SPRING-001`~~ | ~~`rulebooks/RULEBOOK-SPRING-001.md`~~ | ✅ Creado — `DOC-HACK-001` |
@@ -81,7 +82,7 @@
 ## Estado general
 
 ```
-Total artefactos:  2 Knowledge + 3 Governance + 0 Work + 1 Rulebooks = 6
+Total artefactos:  3 Knowledge + 3 Governance + 0 Work + 1 Rulebooks = 7
 Errores:           0  ✅
 Orphans:           0  ✅
 Fase 0:            EN CURSO 🔵 — ADRs creados · ADR-003 pendiente validación BBVA
