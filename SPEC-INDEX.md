@@ -20,7 +20,9 @@
 
 | ID | Fichero | Estado | Confidence |
 |----|---------|--------|------------|
-| — | — | — | — |
+| ADR-001 | `adrs/ADR-001-lenguaje-implementacion-agente.md` | accepted | medium |
+| ADR-002 | `adrs/ADR-002-modelo-ia.md` | accepted | medium |
+| ADR-003 | `adrs/ADR-003-github-app-vs-pat.md` | proposed | low |
 
 ---
 
@@ -64,9 +66,9 @@
 
 | Prioridad | ID | Fichero | Por qué |
 |-----------|-----|---------|---------|
-| 🔴 | `ADR-001` | `adrs/ADR-001-lenguaje-implementacion-agente.md` | Decisión crítica: stack del agente |
-| 🔴 | `ADR-002` | `adrs/ADR-002-modelo-ia-y-copilot.md` | Decisión: Claude + Copilot Claude Agent |
-| 🔴 | `ADR-003` | `adrs/ADR-003-github-app-vs-pat.md` | Decisión: integración con GitHub Enterprise BBVA |
+| ~~🔴~~ | ~~`ADR-001`~~ | ~~`adrs/ADR-001-lenguaje-implementacion-agente.md`~~ | ✅ Creado — accepted |
+| ~~🔴~~ | ~~`ADR-002`~~ | ~~`adrs/ADR-002-modelo-ia.md`~~ | ✅ Creado — accepted |
+| ~~🔴~~ | ~~`ADR-003`~~ | ~~`adrs/ADR-003-github-app-vs-pat.md`~~ | ✅ Creado — proposed (pendiente validación BBVA) |
 | 🔴 | `ARCH-HACK-002` | `specs/architecture/ARCH-HACK-002-stack-agente-hackiados.md` | Stack técnico del agente HackIAdos — requiere ADR-001/002/003 |
 | 🟡 | `DOM-HACK-001` | `specs/domain/DOM-HACK-001-actores-entidades.md` | Actores (PR author, reviewer…) y entidades (PR, diff, violation…) |
 | 🟡 | `FEAT-HACK-001` | `specs/feature/FEAT-HACK-001-quality-gate-logic.md` | Lógica del semáforo 🟢🟡🔴 |
@@ -79,9 +81,9 @@
 ## Estado general
 
 ```
-Total artefactos:  2 Knowledge + 0 Governance + 0 Work + 1 Rulebooks = 3
+Total artefactos:  2 Knowledge + 3 Governance + 0 Work + 1 Rulebooks = 6
 Errores:           0  ✅
 Orphans:           0  ✅
-Fase 0:            EN CURSO 🔵 — base KDD completa · ADRs son el siguiente paso
-Siguiente acción:  Escribir ADR-001, ADR-002, ADR-003 → luego ARCH-HACK-002 (stack agente)
+Fase 0:            EN CURSO 🔵 — ADRs creados · ADR-003 pendiente validación BBVA
+Siguiente acción:  Validar ADR-003 con plataforma BBVA → crear ARCH-HACK-002 (stack agente)
 ```
