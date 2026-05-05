@@ -1,0 +1,27 @@
+stages:
+  - ai_review
+
+code_quality_ai:
+  stage: ai_review
+  image: python:3.10-slim
+  rules:
+    # Asegura que esto solo se ejecute cuando hay una Merge Request activa
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+  before_script:
+    - apt-get update && apt-get install -y git
+    - pip install -r requirements_agent.txt
+  script:
+    # 1. Traer la rama de destino para poder comparar
+    - git fetch origin $CI_MERGE_REQUEST_TARGET_BRANCH_NAME
+    
+    # 2. Generar el Diff entre la rama de la MR y la rama destino
+    - git diff origin/$CI_MERGE_REQUEST_TARGET_BRANCH_NAME...$CI_COMMIT_SHA > diff_mr.txt
+    
+    # 3. Ejecutar el script que llama a tu Agente IA
+    - python scripts/orquestador_ia.py
+    
+  artifacts:
+    reports:
+      # ESTA línea activa la interfaz gráfica del Widget en la MR
+      codequality: gl-code-quality-report.json
+    expire_in: 1 week
