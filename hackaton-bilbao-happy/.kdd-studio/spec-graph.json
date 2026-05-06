@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-05-06T20:53:48.496Z",
+  "sourceDir": "C:\\Users\\victor.carmona\\Desktop\\Nfq-Worker-Workspace\\wgtbBackend",
+  "stats": {
+    "total": 4,
+    "byLayer": {
+      "architecture": 1,
+      "doc": 1,
+      "rule": 2
+    },
+    "byStatus": {
+      "draft": 2,
+      "active": 2
+    },
+    "byConfidence": {
+      "low": 3,
+      "medium": 1
+    },
+    "orphans": 1,
+    "relationCount": 5
+  },
+  "parseErrors": []
+}

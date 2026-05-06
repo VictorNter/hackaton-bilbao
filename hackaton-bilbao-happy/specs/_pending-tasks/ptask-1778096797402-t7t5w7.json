@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "ptask-1778096797402-t7t5w7",
+  "questionId": "oq-285eb5",
+  "createdAt": "2026-05-06T19:46:37.402Z",
+  "docName": "DOC-BOOT-wgtbbackend-p037.md",
+  "docHash": "d8484c3787e55a01d22c03b33a02a1b4dd059747039fbcc49151b632558a03d9",
+  "uuaa": "BOOT",
+  "affectedSpecIds": [],
+  "question": "El resumen del documento fuente (sección Definition / Resumen) está truncado: termina con la frase incompleta 'y los persi'. Es probable que existan operaciones BPM adicionales soportadas por el servicio que no han sido capturadas. Se recomienda obtener el documento fuente completo (docs-tecnicos/P037-BOOT-wgtbbackend.md) y relanzar el análisis.",
+  "questionType": "open_question",
+  "context": "Documento P037 de wgtbBackend (UUAA: WGTB/BOOT): descripción técnica generada automáticamente del mi",
+  "chatHistory": [],
+  "status": "pending",
+  "resolutionToken": "kdd-preview-1778096602695-3xi2pewl"
+}

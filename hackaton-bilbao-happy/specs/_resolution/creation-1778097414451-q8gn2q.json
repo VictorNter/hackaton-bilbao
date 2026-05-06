@@ -1,0 +1,11 @@
+{
+  "previewToken": "creation-1778097414451-q8gn2q",
+  "sourceDir": "C:\\Users\\victor.carmona\\Desktop\\Nfq-Worker-Workspace\\wgtbBackend",
+  "chatTurns": [],
+  "specDecisions": {},
+  "questionStates": [],
+  "proposals": [],
+  "isCompacted": false,
+  "lastUpdated": 1778097414455,
+  "serializedSnapshot": "{\"token\":\"creation-1778097414451-q8gn2q\",\"sourceDir\":\"C:\\\\Users\\\\victor.carmona\\\\Desktop\\\\Nfq-Worker-Workspace\\\\wgtbBackend\",\"docName\":\"(creación de specs)\",\"docHash\":\"creation-1778097414451-q8gn2q\",\"parsed\":{\"analysis\":{\"summary\":\"Sesión de creación manual de specs\",\"document\":\"(ninguno)\"},\"specs\":[],\"open_questions\":[],\"conflicts\":[]},\"rawLlmOutput\":\"\",\"inventoryIds\":[\"ARCH-BOOT-001\",\"DOC-BOOT-wgtbbackend-p037\"],\"relevantSpecs\":[],\"createdAt\":1778097414455}"
+}
