@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "ptask-1778096797409-mvfnbw",
+  "questionId": "oq-1a94fc",
+  "createdAt": "2026-05-06T19:46:37.409Z",
+  "docName": "DOC-BOOT-wgtbbackend-p037.md",
+  "docHash": "d8484c3787e55a01d22c03b33a02a1b4dd059747039fbcc49151b632558a03d9",
+  "uuaa": "BOOT",
+  "affectedSpecIds": [],
+  "question": "La UUAA declarada en el documento es WGTB en el resumen narrativo, pero el ID de la spec y el campo domain usan BOOT. ¿BOOT es la UUAA registrada en NOVA/ONE para este servicio, o es WGTB? La discrepancia puede afectar al enrutamiento en el KB federado y a la validación de IDs.",
+  "questionType": "open_question",
+  "context": "Documento P037 de wgtbBackend (UUAA: WGTB/BOOT): descripción técnica generada automáticamente del mi",
+  "chatHistory": [],
+  "status": "pending",
+  "resolutionToken": "kdd-preview-1778096602695-3xi2pewl"
+}

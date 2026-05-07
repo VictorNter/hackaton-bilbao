@@ -1,0 +1,24 @@
+{
+  "services": [
+    {
+      "name": "BOOT-wgtbbackend",
+      "summary": "`wgtbbackend` es un microservicio REST de tipo API, perteneciente a la UUAA **WGTB** (GTB Workflow Tool), desarrollado en Java 11 con Spring Boot y desplegado sobre la plataforma NOVA. Su función principal es servir como backend de la herramienta de gestión de flujos de trabajo operativos del área GTB (Global Transaction Banking), proporcionando la capa de negocio y persistencia que sustenta las interfaces de usuario y los procesos automatizados de la plataforma. El servicio resuelve la necesidad de orquestar y registrar el ciclo de vida de oportunidades y tareas de negocio dentro de flujos BPM. Recibe eventos y acciones sobre estas entidades — creación de oportunidades, asignación y liberación de tareas, cambio de estados, registro de comentarios, gestión de campos dinámicos — y los persi",
+      "packages": [],
+      "patterns": [
+        "Factory",
+        "Builder",
+        "Hexagonal",
+        "Ports & Adapters",
+        "Repository"
+      ],
+      "integrations": [
+        "Oracle",
+        "REST",
+        "HTTP"
+      ],
+      "tokenCount": 104521
+    }
+  ],
+  "totalTokens": 104521,
+  "generatedAt": "2026-05-06T16:49:41.092Z"
+}

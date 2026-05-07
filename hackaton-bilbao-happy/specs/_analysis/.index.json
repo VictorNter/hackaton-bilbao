@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "runs": [
+    {
+      "docHash": "d8484c3787e55a01d22c03b33a02a1b4dd059747039fbcc49151b632558a03d9",
+      "docName": "DOC-BOOT-wgtbbackend-p037.md",
+      "uuaa": "BOOT",
+      "ranAt": "2026-05-06T19:46:37.346Z",
+      "analysisFilePath": "C:\\Users\\victor.carmona\\Desktop\\Nfq-Worker-Workspace\\wgtbBackend\\specs\\_analysis\\2026-05-06-BOOT-DOC-BOOT-wgtbbackend-p037.md",
+      "specIds": [
+        "ARCH-BOOT-001",
+        "DOC-BOOT-wgtbbackend-p037"
+      ]
+    },
+    {
+      "docHash": "d8484c3787e55a01d22c03b33a02a1b4dd059747039fbcc49151b632558a03d9",
+      "docName": "corrección: 2026-05-06-BOOT-DOC-BOOT-wgtbbackend-p037.md",
+      "uuaa": "BOOT",
+      "ranAt": "2026-05-06T19:48:11.419Z",
+      "analysisFilePath": "C:\\Users\\victor.carmona\\Desktop\\Nfq-Worker-Workspace\\wgtbBackend\\specs\\_analysis\\2026-05-06-BOOT-correcci-n-2026-05-06-BOOT-DOC-BOOT-wgtbbackend-p037.md",
+      "specIds": [
+        "DOC-BOOT-wgtbbackend-p037"
+      ]
+    },
+    {
+      "docHash": "creation-1778097576541-f98ft2",
+      "docName": "(creación de specs)",
+      "uuaa": "BOOT",
+      "ranAt": "2026-05-06T20:20:58.474Z",
+      "analysisFilePath": "C:\\Users\\victor.carmona\\Desktop\\Nfq-Worker-Workspace\\wgtbBackend\\specs\\_analysis\\2026-05-06-BOOT-creaci-n-de-specs.md",
+      "specIds": [
+        "RULE-BOOT-dir-structure"
+      ]
+    },
+    {
+      "docHash": "creation-1778099762510-f1feww",
+      "docName": "(creación de specs)",
+      "uuaa": "BOOT",
+      "ranAt": "2026-05-06T20:53:47.416Z",
+      "analysisFilePath": "C:\\Users\\victor.carmona\\Desktop\\Nfq-Worker-Workspace\\wgtbBackend\\specs\\_analysis\\2026-05-06-BOOT-creaci-n-de-specs.md",
+      "specIds": [
+        "RULE-BOOT-bad-practices"
+      ]
+    }
+  ]
+}

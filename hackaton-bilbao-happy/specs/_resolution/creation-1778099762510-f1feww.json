@@ -1,0 +1,81 @@
+{
+  "previewToken": "creation-1778099762510-f1feww",
+  "sourceDir": "C:\\Users\\victor.carmona\\Desktop\\Nfq-Worker-Workspace\\wgtbBackend",
+  "chatTurns": [
+    {
+      "role": "user",
+      "content": "Necesito otro SPEC que establezca una serie de criterios que el desarrollador debe tener en cuenta que no son buenas prácticas. Lo ideal es dividirlo en grave, medio y leve",
+      "timestamp": 1778100277107,
+      "tokens": 55
+    },
+    {
+      "role": "assistant",
+      "content": "Entendido, quieres documentar criterios de **malas prácticas** clasificados por severidad (grave / medio / leve) para que los desarrolladores los tengan en cuenta.\n\nAntes de clasificar, necesito dos cosas:\n\n1. **¿A qué aplican estas malas prácticas?** ¿Son específicas del microservicio `wgtbBackend` o quieres que apliquen a todos los microservicios del proyecto?\n\n2. **¿Tienes ya una lista concreta de las prácticas?** Si las tienes, compártelas ahora (aunque sea en bruto) — así avanzo directo a generación sin más preguntas.",
+      "timestamp": 1778100283712,
+      "tokens": 176
+    },
+    {
+      "role": "user",
+      "content": "1. Quiero que apliquen sobre todo a próximos proyectos\n2. Establecelo con tus conocimientos",
+      "timestamp": 1778100352418,
+      "tokens": 29
+    },
+    {
+      "role": "assistant",
+      "content": "Lo que describes es un conjunto de **invariantes verificables** (cosas que nunca deben hacerse), no una decisión puntual ni un documento explicativo. Eso es exactamente para lo que sirve una `RULE`.\n\nSin embargo, dado el volumen y la heterogeneidad (grave/medio/leve, múltiples categorías), lo más limpio es **una sola RULE** con las malas prácticas organizadas por severidad dentro del body — no tres specs separadas. Más fácil de mantener y consultar.\n\nAlgunas aclaraciones antes de generar:\n\n**¿Sobre qué áreas quieres cobertura?** Puedo incluir las más habituales en microservicios backend:\n\n- Diseño de API / contratos\n- Gestión de errores\n- Seguridad básica (secretos, autenticación)\n- Calidad de código (acoplamiento, duplicación, complejidad)\n- Observabilidad (logs, trazas)\n- Gestión de dependencias\n\n¿Las incluyo todas, excluyes alguna, o añades algo específico del stack de `wgtbBackend` (lenguaje, framework)?\n\nSi me dices \"adelante con todo\" genero directamente.",
+      "timestamp": 1778100361320,
+      "tokens": 323
+    },
+    {
+      "role": "user",
+      "content": "Adelante con todo",
+      "timestamp": 1778100419287,
+      "tokens": 6
+    },
+    {
+      "role": "assistant",
+      "content": "Perfecto, lanzo el paquete.",
+      "timestamp": 1778100459596,
+      "tokens": 2306
+    },
+    {
+      "role": "assistant",
+      "content": "[SISTEMA — NO VISIBLE AL USUARIO] El validador ha RECHAZADO EL PAQUETE ENTERO porque al menos una spec no cumple el rubric. Las bloqueadas son:\n- RULE-BOOT-bad-practices:\n   1. La sección de contenido de RULE-BOOT-bad-practices tiene muy poco (54 chars). Dame al menos un párrafo con lo que este spec declara concretamente.\n\nPrincipio: el paquete es atómico. Si una spec falla, ninguna entra al preview (ni las que sí pasaban).\n\nREGLAS para tu próximo turno:\n1. NO reemitas el mismo paquete. El usuario ya lo vio bloqueado.\n2. Si el usuario pregunta qué aportar, responde con lista concreta de las preguntas del validador, sin reemitir YAML.\n3. Cuando el usuario aporte info que resuelva los gaps, reemite el paquete ENTERO (incluidas las specs que sí pasaban antes).\n4. Si el usuario decide descartar una spec concreta (\"quita X del paquete\", \"olvida X\"), reemite el paquete sin ella manteniendo las demás.\n5. Solo vuelve a Fase 4 cuando todas las specs del paquete cumplan el rubric.",
+      "timestamp": 1778100459597,
+      "tokens": 310
+    },
+    {
+      "role": "user",
+      "content": "Se trata de cobertura de malas prácticas clasificadas por severidad en:\nDiseño de API / contratos\nGestión de errores\nSeguridad básica (secretos, autenticación)\nCalidad de código (acoplamiento, duplicación, complejidad)\nObservabilidad (logs, trazas)\nGestión de dependencias",
+      "timestamp": 1778100743043,
+      "tokens": 86
+    },
+    {
+      "role": "assistant",
+      "content": "Perfecto, reemito el paquete completo con el cuerpo desarrollado.",
+      "timestamp": 1778100790899,
+      "tokens": 2587
+    },
+    {
+      "role": "assistant",
+      "content": "✓ Confirmado. Persistidas 1 spec(s): RULE-BOOT-bad-practices.",
+      "timestamp": 1778100827445,
+      "tokens": 20
+    }
+  ],
+  "specDecisions": {},
+  "questionStates": [],
+  "proposals": [],
+  "isCompacted": false,
+  "lastUpdated": 1778100827445,
+  "serializedSnapshot": "{\"token\":\"creation-1778099762510-f1feww\",\"sourceDir\":\"C:\\\\Users\\\\victor.carmona\\\\Desktop\\\\Nfq-Worker-Workspace\\\\wgtbBackend\",\"docName\":\"(creación de specs)\",\"docHash\":\"creation-1778099762510-f1feww\",\"uuaaUpper\":\"BOOT\",\"parsed\":{\"analysis\":{\"summary\":\"Sesión de creación manual de specs\",\"document\":\"(ninguno)\"},\"specs\":[],\"open_questions\":[],\"conflicts\":[]},\"rawLlmOutput\":\"\",\"inventoryIds\":[\"ARCH-BOOT-001\",\"DOC-BOOT-wgtbbackend-p037\",\"RULE-BOOT-dir-structure\"],\"relevantSpecs\":[],\"createdAt\":1778099762514}",
+  "title": "Criterios de malas prácticas divididos por severidad",
+  "uuaa": "BOOT",
+  "persistedSpecs": [
+    {
+      "id": "RULE-BOOT-bad-practices",
+      "kind": "created",
+      "at": "2026-05-06T20:53:47.444Z"
+    }
+  ]
+}
